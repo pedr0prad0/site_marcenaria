@@ -1,0 +1,65 @@
+.cabeçalho {
+    height: 15vh;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-right: 70vh;
+}
+
+.divLogo {
+    display: flex;
+    align-items: center;
+}
+
+.ulCabeçalho {
+    padding-left: 20vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+li {
+    padding: 5px;
+    transition: transform 1s;
+}
+
+li:hover {
+    color: orange;
+    transform: translateX(1px) scale(1.2);
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.rodape {
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBranco {
+    height: 80px;
+    position: absolute;
+}
+
+p {
+    color: white;
+    margin-top: 16vh;
+    font-size: smaller;
+}

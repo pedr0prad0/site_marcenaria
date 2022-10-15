@@ -1,7 +1,11 @@
 .corpo {
+    padding-left: 20vw;
+    padding-right: 20vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%
 }
 
 .comodo {
@@ -16,8 +20,17 @@
     width: 150px;
     border: 1px solid black;
     border-radius: 5%;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 35px;
-    padding-right: 20px;
+    margin-top: 10px;
+    padding-top: 1vw;
+    padding-left: 3.5vh;
+    padding-bottom: 3vw;
+    padding-right: 3.5vh;
+    transition: transform 1s;
+}
+
+.borda:hover {
+    border-color: orange;
+    color: orange;
+    transform: translateX(1px) scale(1.2);
+    text-decoration: underline;
 }

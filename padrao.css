@@ -2,7 +2,7 @@
     height: 15vh;
     background-color: gainsboro;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     height: 70px;
-    padding-right: 70vh;
+
 }
 
 .divLogo {
@@ -19,7 +19,7 @@
 }
 
 .ulCabeçalho {
-    padding-left: 20vh;
+
     height: 15vh;
     display: flex;
     justify-content: center;

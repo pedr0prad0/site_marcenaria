@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -40,13 +41,11 @@ li:hover {
 }
 
 footer {
-    position: absolute;
     bottom: 0px;
     width: 100%;
 }
 
 .rodape {
-    height: 20vh;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -60,6 +59,6 @@ footer {
 
 p {
     color: white;
-    margin-top: 16vh;
+    margin-top: 15vh;
     font-size: smaller;
 }

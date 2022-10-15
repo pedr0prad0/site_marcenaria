@@ -15,12 +15,14 @@
 }
 
 .borda {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     height: 150px;
     width: 150px;
     border: 1px solid black;
     border-radius: 5%;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 1vw;
     padding-left: 3.5vh;
     padding-bottom: 3vw;
